@@ -1,6 +1,5 @@
 const dbCoonect = require('./MongoDb');
 
-
 const deleteData = async () => {
     const db = await dbCoonect();
 
